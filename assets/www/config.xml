@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <widget xmlns   = "http://www.w3.org/ns/widgets"
+        xmlns:gap   = "http://www.lunarshucks.com"
+        id          = "com.lunarshucks"
+        versionCode = "0.0.1" 
+        version     = "1.0.0" >
+
+    <!-- versionCode is optional and Android only -->
+
+    <name>LunarShucks</name>
+
+    <description>
+        The Architect reassembling the destroyed Winnipesaukee Lake Stone. He has already acquired most of the pieces and only needs a few more. It is up to you to stop him! 
+    </description>
+
+    <author href="http://www.lunarshucks.com" email="bryanbenson83@gmail.com">
+        Bryan Benson 
+    </author>
+    <access origin="http://www.lunarshucks.com" subdomains="true" />
+    <access origin="*" subdomains="true" />
+    <plugin name="org.apache.cordova.inappbrowser" source="pgb" />    <preference name="permissions" value="none"/>
+    <preference name="orientation" value="portrait" />
+    <preference name="fullscreen" value="true" />
+
+
+</widget>
+

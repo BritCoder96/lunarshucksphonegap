@@ -1,0 +1,11 @@
+<script type="text/javascript">
+	document.addEventListener("deviceready", onDeviceReady, false); 
+	function onDeviceReady()     {
+	    ref = window.open('http://www.lunarshucks.com', '_blank', 'location=no');
+	    ref.addEventListener('exit', function() {
+		navigator.app.exitApp();
+	    });
+	}
+        </script>
+	<script type="text/javascript" src="cordova.js"></script>
+        <access origin= "http://www.lunarshucks.com" subdomains="true"/>
