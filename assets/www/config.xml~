@@ -18,7 +18,8 @@
     </author>
     <access origin="http://www.lunarshucks.com" subdomains="true" />
     <access origin="*" subdomains="true" />
-    <plugin name="org.apache.cordova.inappbrowser" source="pgb" />    <preference name="permissions" value="none"/>
+    <plugin name="org.apache.cordova.inappbrowser" source="pgb" />    	  <preference name="permissions" value="none"/>
+    <icon src="icon.png" />
     <preference name="orientation" value="portrait" />
     <preference name="fullscreen" value="true" />
 
